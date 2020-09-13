@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Student performance</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            height: 250px;
+            width: 473px;
+        }
+        .auto-style4 {
+            height: 450px;
+            width: 18px;
+        }
+        .auto-style5 {
+            height: 450px;
+        }
+        .auto-style6 {
+            height: 450px;
+            width: 128px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <table class="auto-style1"> 
+        <tr> 
+            <td colspan="2" style="height:50px">&nbsp;<h2> Учет успеваимости студентов</h2> </td> 
+        </tr> 
+
+        <tr> 
+            <td class="auto-style6">&nbsp;
+               <h1>Меню:</h1> 
+            <div class="menu">
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" Orientation="Vertical" ForeColor="Black"> 
+                <Items>
+                      <asp:MenuItem  NavigateUrl="~/StudentRegisForm.aspx" Text="-Регистрация "/>
+                      <asp:MenuItem NavigateUrl="~/GradeSheet.aspx" Text="-Учебная ведомость"/>
+                      <asp:MenuItem NavigateUrl="~/StudenRating.aspx" Text="-Рейтинг студентов"/>
+                 </Items>
+                <LevelMenuItemStyles>
+                    <asp:MenuItemStyle  BorderColor="#6699FF" Font-Underline="False" />
+                </LevelMenuItemStyles>
+            </asp:Menu>
+            </div>
+            </td> 
+            <td class="auto-style5">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </td> 
+
+        </tr> 
+        <tr> 
+            <td colspan="2" style="height:50px">&nbsp; 
+               <%-- Нижний колонтитул --%>
+                <div id="temo_footer"> 
+                        <ul class="footer_menu">
+                            <li><a href="StudentRegisForm.aspx">Регистрация</a></li> 
+                            <li><a href="GradeSheet.aspx">Учебная ведомость</a></li> 
+                            <li><a href="StudenRating.aspx">Рейтинг студентов</a></li> 
+                        </ul> 
+                    </div>
+                </td> 
+
+            </tr>
+            <div class="footer"> <asp:Literal ID="VisitorLiteral" runat="server" /> </div>
+
+    </table>
+
+   </div>
+
+    </form>
+
+</body>
+</html>

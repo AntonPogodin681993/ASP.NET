@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ITMO.2020Course.ASP.TestAssignment", "ITMO.2020Course.ASP.TestAssignment\", "{BF40E2AA-90C4-4DD5-91CF-22EF6BABF6AB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54740"
+		Debug.AspNetCompiler.PhysicalPath = "ITMO.2020Course.ASP.TestAssignment\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54740\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54740"
+		Release.AspNetCompiler.PhysicalPath = "ITMO.2020Course.ASP.TestAssignment\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54740\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54740"
+		SlnRelativePath = "ITMO.2020Course.ASP.TestAssignment\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF40E2AA-90C4-4DD5-91CF-22EF6BABF6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF40E2AA-90C4-4DD5-91CF-22EF6BABF6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66B52A27-724C-4DE8-AF3D-C81996100B2E}
+	EndGlobalSection
+EndGlobal
